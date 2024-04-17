@@ -18,8 +18,7 @@ This project showcases the integration of various AWS components for hosting and
 
 ### 1. Setting up Permissions for the Code
 
-The initial step involved creating a new IAM user account with appropriate permissions. This practice mitigates security risks associated with using AWS root accounts and follows the principle of least privilege. Permissions granted include access to CodeCommit for file storage.
-<br />
+The initial step involved creating a new IAM user account with appropriate permissions. This practice mitigates security risks associated with using AWS root accounts and follows the principle of least privilege. Permissions granted include access to CodeCommit for file storage.<br />
 <img src="https://i.imgur.com/CZR8v71.png" height="80%" width="80%" alt="Code commit permissions"/>
 <br />
 <br />
