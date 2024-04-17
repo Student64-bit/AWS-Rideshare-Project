@@ -26,14 +26,23 @@ The initial step involved creating a new IAM user account with appropriate permi
 ### 2. Storing, Updating, and Pulling the Code
 
 CodeCommit was utilized to fork the tutorial code into a personal repository and clone the contents. HTTPS Git commit permissions were granted to the IAM user to enable HTTPS connections to CodeCommit, facilitating the use of AWS CloudShell for forking/cloning files.
+<img src="https://i.imgur.com/HCzCrc3.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
 
 ### 3. Using Amplify to Host the Web Application Files from CodeCommit
 
 Leveraging the serverless and fully managed Amplify service, the website files were hosted with continuous deployment capabilities. Any changes made to files in CodeCommit were automatically reflected on the website within minutes.
+<img src="https://i.imgur.com/wDijTv2.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
 
 ### 4. Implementing User Authentication with Cognito
 
 Cognito user pools were utilized to implement user login and registration functionalities along with JWT-based authentication. Upon signing up, users were required to verify themselves with a code sent via email.
+<img src="https://i.imgur.com/BOI6xdO.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
 
 ### 5. Application Functionality using Lambda and DynamoDB
 
@@ -42,6 +51,17 @@ A Lambda function was created to select a unicorn for the rideshare fleet and st
 ### 6. Utilizing API Gateway to Invoke Lambda Functions
 
 Lastly, a RESTful API was created using API Gateway to invoke the Lambda function for storing user data in DynamoDB when users interacted with the application using HTTP POST methods.
+<img src="https://i.imgur.com/8AAuQBN.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
+<img src="https://i.imgur.com/8wXScb9.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
+<img src="https://i.imgur.com/CTI3Oib.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
+
+
 
 ## Video Demo
 
