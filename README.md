@@ -64,4 +64,5 @@ Lastly, a RESTful API was created using API Gateway to invoke the Lambda functio
 
 
 ## Video Demo
+[React Bookstore](https://www.youtube.com/watch?v=QQyKhRHJX4k)
 
