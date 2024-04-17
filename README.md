@@ -33,7 +33,7 @@ CodeCommit was utilized to fork the tutorial code into a personal repository and
 ### 3. Using Amplify to Host the Web Application Files from CodeCommit
 
 Leveraging the serverless and fully managed Amplify service, the website files were hosted with continuous deployment capabilities. Any changes made to files in CodeCommit were automatically reflected on the website within minutes.
-<img src="https://i.imgur.com/wDijTv2.png" height="80%" width="80%" alt="Https git credentials"/>
+<img src="https://i.imgur.com/3T8AwMG.png" height="80%" width="80%" alt="Https git credentials"/>
 <br />
 <br />
 
@@ -47,13 +47,13 @@ Cognito user pools were utilized to implement user login and registration functi
 ### 5. Application Functionality using Lambda and DynamoDB
 
 A Lambda function was created to select a unicorn for the rideshare fleet and store the relevant data in DynamoDB. The choice of a non-relational database like DynamoDB was suitable for this use case due to the simplicity of data requirements.
+<img src="https://i.imgur.com/8AAuQBN.png" height="80%" width="80%" alt="Https git credentials"/>
+<br />
+<br />
 
 ### 6. Utilizing API Gateway to Invoke Lambda Functions
 
 Lastly, a RESTful API was created using API Gateway to invoke the Lambda function for storing user data in DynamoDB when users interacted with the application using HTTP POST methods.
-<img src="https://i.imgur.com/8AAuQBN.png" height="80%" width="80%" alt="Https git credentials"/>
-<br />
-<br />
 <img src="https://i.imgur.com/8wXScb9.png" height="80%" width="80%" alt="Https git credentials"/>
 <br />
 <br />
